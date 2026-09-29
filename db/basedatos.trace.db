@@ -1,0 +1,4 @@
+2026-09-29 12:10:57.869166+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "PRODUCT" no encontrada
+Table "PRODUCT" not found; SQL statement:
+select p1_0.id,p1_0.name,p1_0.price from product p1_0 where p1_0.id=? [42102-240]
